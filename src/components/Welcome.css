@@ -1,0 +1,9 @@
+.h1Welcome{
+    border-radius: 10px;
+    width: 30%;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+}
