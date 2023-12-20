@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
  function CustomNavBar ()  {
     return (
-        <Navbar bg="primary" data-bs-theme="dark">
+        <Navbar bg="primary" data-bs-theme="dark" style={{ position: 'sticky', top: 0, zIndex: 1000 }}>
         <Container>
           <Navbar.Brand href="#home">Home</Navbar.Brand>
           <Nav className="me-auto">
